@@ -11,7 +11,7 @@ def handle_message(update, context):
     message_counter.inc()
 
 def main():
-    updater = Updater(token='6191130254:AAH5yCH0XWUYBuSNw-XCaQGX3RDJ4p1v920', use_context=True)
+    updater = Updater(token='', use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler('start', start))
